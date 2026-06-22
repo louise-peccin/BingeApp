@@ -107,7 +107,7 @@ O sistema possui validações para evitar cadastros incorretos:
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/louise-peccin/BingeTrack.git
+git clone https://github.com/louise-peccin/BingeApp.git
 ```
 
 2. Abra o projeto no Android Studio.
