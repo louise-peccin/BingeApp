@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txtNomeDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do filme"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#7B00FF"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/txtGeneroDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gênero:"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/txtAnoDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ano:"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/txtStatusDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/txtNotaDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nota:"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7B00FF"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excluir"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D32F2F" />
+
+</LinearLayout>
